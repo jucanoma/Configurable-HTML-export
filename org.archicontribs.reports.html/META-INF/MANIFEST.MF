@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Export selected views
+Bundle-SymbolicName: org.archicontribs.reports.html;singleton:=true
+Bundle-Version: 1
+Bundle-Vendor: CV
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.archimatetool.editor
+Bundle-ClassPath: lib/ST-4.0.8.jar,
+ lib/antlr-runtime-4.4.jar,
+ org.archicontribs.reports.html.jar
+Bundle-Activator: org.archicontribs.reports.html.ArchiReportsPlugin
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="org.archicontribs.reports.html"
+         name="views to html"
+         point="com.archimatetool.editor.exportHandler">
+      <exportHandler
+            class="org.archicontribs.reports.html.HTMLExporter"
+            id="com.archimatetool.import_export_example.exportHandler"
+            label="HTML view export">
+      </exportHandler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="org.archicontribs.reports.html.Startup">
+      </startup>
+   </extension>
+
+</plugin>
