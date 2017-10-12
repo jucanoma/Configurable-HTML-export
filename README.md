@@ -1,2 +1,3 @@
 # Configurable-HTML-export
 This plugin let the user to select folders wich he doesn't want to show the views. It shows them in the HTML tree but when the user click on the link the HTML shows a "confidential" image.
+This plugin use the same functionalities of the oficial HTML report of Archi. The change I've made is that the user have to select the folders he doens't want to show in the report. Because it use the fncionalities of the oficial HTML report, it doesn't work exporting the jar file and put it on plugins folder. For this plugin, you have to export it in jar and unzip it in the plugin folder as the oficial HTML funtionality.
